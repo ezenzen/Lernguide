@@ -1,0 +1,279 @@
+@import "../../../../templates/default/delos";
+// Import Custom Less Files here
+@import "Lernguide-variables.less";
+
+.ilContainerWidth {
+  max-width: none;
+}
+#il_startup_logo {
+  padding: 0 30px;
+}
+img.HeaderIconResponsive {
+  position: fixed;
+  top: -10px;
+  left: -10px;
+  padding: -10px;
+}
+
+/*---------------TOPBAR---------------*/
+#ilTopBar.ilTopBar {
+  width: 30%;
+  right: 0;
+  position: fixed;
+}
+#ilTopBar.ilTopBar {
+@media only screen and (max-width: 767px) {
+  height: 45px;
+  width: 100%;
+  background-color: white;
+  border-bottom: 5px solid #005ea3;
+  }
+}
+.ilTopTitle {
+  display: none;
+}
+#ilTopBarNav > li > a {
+  background-color: transparent;
+  color: @accent-primary;
+}
+#ilTopNav button.navbar-toggle {
+  background-color: @accent-primary;
+}
+
+/*---------------NAVBAR---------------*/
+.ilMainMenu.ilTopFixed {
+  top: 66px;
+}
+.ilMainHeader {
+  height: 75px;
+}
+.ilMainHeader.ilTopFixed {
+  top: 0px;
+}
+.ilMainHeaderStartupScreen {
+@media only screen and (max-width: 767px) {
+  height: 45px;
+  }
+}
+#ilTopBar.ilTopBarStartupScreen {
+  background-color: transparent;
+}
+#ilTopNav {
+  margin: -38px 0 0 200px;
+}
+#ilTopNav .dropdown-menu {
+  background-color: white;
+}
+#ilTopNav .navbar-nav > .active > a,
+#ilTopNav .navbar-nav > .open > a,
+#ilTopNav .navbar-nav > .active > a:hover,
+#ilTopNav .navbar-nav > .open > a:hover,
+#ilTopNav .navbar-nav > .active > a:active,
+#ilTopNav .navbar-nav > .open > a:active,
+#ilTopNav .navbar-nav > .active > a:focus,
+#ilTopNav .navbar-nav > .open > a:focus {
+  border-top: 4px solid @accent-primary;
+  background-color: white;
+}
+.dropdown-header {
+  background-color: #ecf0f4;
+}
+.ilMainMenu.ilTopFixed {
+@media only screen and (max-width: 767px) {
+  top: 45px;
+  }
+}
+#ilTopNav.navbar-default {
+@media only screen and (max-width: 767px) {
+  background-color: white;
+  margin: inherit;
+  }
+}
+#ilTopNav .navbar-nav > .active > a,
+#ilTopNav .navbar-nav > .open > a,
+#ilTopNav .navbar-nav > .active > a:hover,
+#ilTopNav .navbar-nav > .open > a:hover,
+#ilTopNav .navbar-nav > .active > a:active,
+#ilTopNav .navbar-nav > .open > a:active,
+#ilTopNav .navbar-nav > .active > a:focus,
+#ilTopNav .navbar-nav > .open > a:focus {
+@media only screen and (max-width: 767px) {
+  border-top: none;
+  }
+}
+
+
+/*---------------BODY---------------*/
+.ilFixedTopSpacer {
+  padding-top: 85px;
+}
+.ilFixedTopSpacer {
+@media only screen and (max-width: 767px) {
+  padding-top: 0px;
+  }
+}
+.row.row-flex.row-flex-wrap {
+  width: 100%;
+}
+.row.row-flex.row-flex-wrap {
+@media only screen and (max-width: 767px) {
+  padding-left: 30px;
+  }
+}
+.breadcrumb {
+  display: none;
+}
+.btn-default {
+  background-color: @accent-primary;
+  border-color: @accent-primary;
+}
+.btn-default:hover,
+.btn-default:active:hover,
+.btn-default.active:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active:focus,
+.btn-default.active:focus,
+.btn-default:active.focus,
+.btn-default.active.focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default,
+.open > .dropdown-toggle.btn-default:hover,
+.open > .dropdown-toggle.btn-default:focus,
+.open > .dropdown-toggle.btn-default.focus {
+  background-color: @accent-secondary;
+  border-color: @accent-secondary;
+}
+.btn-link {
+  color: @accent-primary;
+}
+.btn-link:hover,
+.btn-link:focus {
+  color: @accent-secondary;
+}
+h3.ilHeader {
+  color: #5d5d5d;
+}
+.alert-info {
+  background-color: #ecf0f4;
+  border-color: #31708f;
+  color: #31708f;
+}
+.alert {
+@media only screen and (max-width: 767px) {
+  margin-right: 5px;
+  margin-left: 5px;
+  }
+}
+.ilContainerBlock {
+  margin-top: 40px;
+}
+
+/*MEMBERVIEW*/
+div.ilMemberViewMainHeader {
+  background-color: #981a0a;
+  width: 100% !important;
+}
+div.ilTopMemberView h3 {
+  color: white !important;
+}
+div.ilMemberViewMainHeader .ilTopTitle {
+  display: block !important;
+}
+div.ilMemberViewMainHeader a {
+  color: white !important;
+}
+
+/*TREEVIEW*/
+a.ilTreeView > img {
+  display: none;
+}
+a.ilTreeView {
+  display: none;
+}
+
+/*TAB NAVIGATION*/
+#ilSubTab {
+  margin: -23px 0 40px;
+}
+a#il_mhead_t_focus {
+  color: lighten(@mid-gray, 10%);
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background-color: white;
+}
+#ilSubTab > li.active > a,
+#ilSubTab > li.active > a:hover,
+#ilSubTab > li.active > a:focus {
+  background-color: transparent;
+  text-decoration: underline;
+}
+li#nontab_members_view {
+  background-color: @accent-primary;
+}
+li#nontab_members_view a {
+  color: white;
+}
+.ilStartupFrame {
+margin-top: 20px;
+}
+div.ilTopMemberView h3 {
+  color: @accent-primary;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 40px;
+  float: right;
+  padding-right: 15px;
+}
+div.ilTopBar a {
+  color: @accent-primary;
+}
+li#nontab_members_view a:hover {
+  color: white;
+  background-color: @accent-secondary;
+}
+
+
+/*---------------FOOTER---------------*/
+footer.ilFooter {
+  height: 170px;
+  text-align: center;
+}
+footer.ilFooter div.ilFooterContainer {
+  margin-top: 78px;
+}
+div#minheight {
+  bottom: -1px !important;
+}
+.il_FHLinde {
+  padding: 7px;
+  background-color: white;
+  border-radius: 30px;
+  position: absolute;
+  bottom: 95px;
+  margin-right: -95px;
+  right: 50%;
+}
+.il_FHLinde > a {
+  display: block;
+}
+footer.ilFooter .ilPermalinkContainer {
+@media only screen and (max-width: 767px) {
+  margin-top: -15px;
+  padding: 10px;
+  width: 100%
+  }
+}
+.ilFooter .btn-default {
+  background-color: #eeeeee;
+  border-color: #eeeeee;
+  border: 1px solid #ccc;
+  color: @accent-primary;
+}
+.ilFooter .btn-default:hover {
+  color: white;
+  background-color: @accent-secondary;
+  border-color: @accent-secondary;
+}
