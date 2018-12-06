@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<template xmlns="http://www.w3.org" version="0.233" name="Lernguide">
+<template xmlns="http://www.w3.org" version="0.244" name="Lernguide">
   <style id="Lernguide" name="Lernguide" image_directory="images" css_file="Lernguide" sound_directory="sound" font_directory="fonts"/>
 </template>

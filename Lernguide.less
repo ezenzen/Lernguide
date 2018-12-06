@@ -40,6 +40,18 @@ img.HeaderIconResponsive {
   background-color: @accent-primary;
 }
 
+/*SEARCH*/
+#tab_adv_search {
+  display: none;
+}
+#thc_search_13_3,
+#thc_search_13_4 {
+  display: none;
+}
+#il_search_toolbar .small {
+  display: none;
+}
+
 /*---------------NAVBAR---------------*/
 .ilMainMenu.ilTopFixed {
   top: 66px;
@@ -169,6 +181,10 @@ h3.ilHeader {
 .ilContainerBlock {
   margin-top: 40px;
 }
+/*COLUMN LAYOUT*/
+.flex-col.flex-grow {
+  margin-left: 30px;
+}
 
 /*MEMBERVIEW*/
 div.ilMemberViewMainHeader {
@@ -247,17 +263,28 @@ footer.ilFooter div.ilFooterContainer {
 div#minheight {
   bottom: -1px !important;
 }
-.il_FHLinde {
+.il_logo {
   padding: 7px;
   background-color: white;
-  border-radius: 30px;
   position: absolute;
   bottom: 95px;
-  margin-right: -95px;
+  margin-right: -105px;
   right: 50%;
+  width: 210px;
+
 }
-.il_FHLinde > a {
+.il_logo > a {
   display: block;
+}
+.il_logo_fhoö {
+  float: left;
+  margin-left: 3px;
+  padding-right: 10px;
+}
+.il_logo_lindeverlag {
+    float: left;
+    padding-left: 10px;
+    border-left: 1px solid #005ea3;
 }
 footer.ilFooter .ilPermalinkContainer {
 @media only screen and (max-width: 767px) {
